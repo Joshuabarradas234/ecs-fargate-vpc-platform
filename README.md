@@ -48,7 +48,7 @@ Everything below has been run and confirmed:
 - **App:** 8 pytest tests pass; `docker build` succeeds; the container serves
   `GET /health` → `{"status":"ok"}` over HTTP locally.
 - **Terraform:** `terraform validate` passes and `terraform fmt -check` is
-  clean across all 11 files.
+  clean across all 10 files.
 - **Cost-audit:** 10 pytest tests pass; report rendering verified against
   sample data.
 
