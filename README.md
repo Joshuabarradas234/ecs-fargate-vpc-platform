@@ -36,7 +36,7 @@ reachable from the internet at all.
 | Area | Contents |
 |------|----------|
 | `app/` | FastAPI app (`/health`, `GET/POST /items`), Dockerfile, 8 unit tests |
-| `terraform/` | VPC, security groups, RDS, ALB, ECS, IAM, observability — 11 files |
+| `terraform/` | VPC, security groups, RDS, ALB, ECS, IAM, observability — 10 files |
 | `cost-audit/` | Read-only Boto3 cost-optimisation tool, 10 unit tests |
 | `.github/workflows/` | `ci.yml` (tests + validate + docker build), `deploy.yml` (ECR + ECS) |
 | docs | [DEPLOYMENT.md](./DEPLOYMENT.md), [DECISION_RECORD.md](./DECISION_RECORD.md) |
